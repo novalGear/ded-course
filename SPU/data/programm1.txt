@@ -1,0 +1,11 @@
+PUSH 7
+POP BX
+
+PUSH 99
+POP [14]
+
+PUSH [BX+7]
+
+ELEM_OUT
+
+HLT
