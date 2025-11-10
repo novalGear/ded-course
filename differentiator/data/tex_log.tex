@@ -1,0 +1,91 @@
+\documentclass[12pt, letterpaper, twoside]{article}
+\usepackage[utf8]{inputenc}
+
+\title{The differentiation game}
+\author{Novoselov Alexander \thanks{funded by the 434 team}}
+\date{November 2024}
+
+\begin{document}
+
+\maketitle
+
+
+Gentlemen, it's a great pleasure to inform you that today we are differentiating
+\[{\cos{({15}*{{x}^{3}})}}+{{(\sin{({{12}*{x}}+{3})})}^{4}}\]
+
+Where 
+
+There we begin...
+\[\frac{d}{dx}{12}*{x} = {{0}*{x}}+{{12}*{1}}\]
+
+
+Where 
+\[\frac{d}{dx}{{12}*{x}}+{3} = {{{0}*{x}}+{{12}*{1}}}+{0}\]
+
+
+Where 
+\[\frac{d}{dx}\sin{({{12}*{x}}+{3})} = {\cos{({{12}*{x}}+{3})}}*{({{{0}*{x}}+{{12}*{1}}}+{0})}\]
+
+
+Where 
+\[\frac{d}{dx}{(\sin{({{12}*{x}}+{3})})}^{4} = {{\cos{({{12}*{x}}+{3})}}*{({{{0}*{x}}+{{12}*{1}}}+{0})}}*{{4}*{{(\sin{({{12}*{x}}+{3})})}^{({4}-{1})}}}\]
+
+
+Where 
+\[\frac{d}{dx}{x}^{3} = {1}*{{3}*{{x}^{({3}-{1})}}}\]
+
+
+Where 
+\[\frac{d}{dx}{15}*{{x}^{3}} = {{0}*{{x}^{3}}}+{{15}*{{1}*{{3}*{{x}^{({3}-{1})}}}}}\]
+
+
+Where 
+\[\frac{d}{dx}\cos{({15}*{{x}^{3}})} = {\sin{({-1}*{{15}*{{x}^{3}}})}}*{({{0}*{{x}^{3}}}+{{15}*{{1}*{{3}*{{x}^{({3}-{1})}}}}})}\]
+
+
+Where 
+\[\frac{d}{dx}{\cos{({15}*{{x}^{3}})}}+{{(\sin{({{12}*{x}}+{3})})}^{4}} = {{\sin{({-1}*{{15}*{{x}^{3}}})}}*{({{0}*{{x}^{3}}}+{{15}*{{1}*{{3}*{{x}^{({3}-{1})}}}}})}}+{{{\cos{({{12}*{x}}+{3})}}*{({{{0}*{x}}+{{12}*{1}}}+{0})}}*{{4}*{{(\sin{({{12}*{x}}+{3})})}^{({4}-{1})}}}}\]
+
+
+Where 
+
+Let's see if we can apply constant folding:
+
+There we shall optimize
+{3}-{1}
+as 2
+
+There we shall optimize
+{12}*{1}
+as 12
+
+There we shall optimize
+{4}-{1}
+as 3
+
+Now we will try removing neutral elements:
+
+Let's see if we can apply constant folding:
+
+There we shall optimize
+{12}+{0}
+as 12
+
+Now we will try removing neutral elements:
+
+Let's see if we can apply constant folding:
+
+Now we will try removing neutral elements:
+
+Gentlemen, it's a great pleasure to inform you that today we are differentiating
+\[{\cos{({15}*{{x}^{3}})}}+{{(\sin{({{12}*{x}}+{3})})}^{4}}\]
+
+Where 
+
+Finally, after a long battle, we emerged victorious:
+\[{{\sin{({-1}*{{15}*{{x}^{3}}})}}*{{15}*{{3}*{{x}^{2}}}}}+{{{\cos{({{12}*{x}}+{3})}}*{12}}*{{4}*{{(\sin{({{12}*{x}}+{3})})}^{3}}}}\]
+
+Where 
+
+
+\end{document}
