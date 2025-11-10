@@ -37,10 +37,12 @@ void help();
  * \brief print welcoming message
  */
 void welcome();
+
 /**
  * \brief print poltorashka, our dorm cat
  */
 void print_poltorashka();
+
 /**
  * \brief print mode name and about -h flag for help
  */

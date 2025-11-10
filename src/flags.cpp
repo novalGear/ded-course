@@ -34,7 +34,8 @@ bool check_flags(flags_init *flags_values, int argc, char *const argv[])
     int opt = 0;
     const char optstring[] = "huf:";
 
-    option longoptions[] ={
+    option longoptions[] =
+    {
         {"help", 0, 0, 'h'},
         {"unit_testing", 0, 0, 'u'},
         {"file_input", 1, 0, 'f'}

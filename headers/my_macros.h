@@ -25,6 +25,9 @@
  * \brief my version of assert
  * \param[in] expr - expression to check
  * \param[in] expression - text representation of original expression
+ * \param[in] file_name - name of file where assertion failed
+ * \param[in] line - line number where assertion failed
+ * \param[in] func_name - name of function where assertion failed
  */
 inline void my_assert_f(const int expr, const char expression[], const char file_name[], const int line,
                         const char func_name[])

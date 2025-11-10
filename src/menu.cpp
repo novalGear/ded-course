@@ -81,7 +81,7 @@ void welcome()
 void print_poltorashka()
 {
     printf(" \
-      \\`-._           __\n\
+      \\`-._          __\n\
         \\  `-..____,.'  `.\n\
          :`.         /    \\`.\n\
          :  )       :      : \\\n\
