@@ -1,0 +1,10 @@
+
+*.exe
+*.o
+/build
+/obj
+*.exe
+*.o
+*.exe
+/obj
+/build

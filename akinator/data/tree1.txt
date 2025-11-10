@@ -1,0 +1,27 @@
+{
+	"animal"
+	yes:
+	{
+		"a cat"
+		yes:
+		{
+			"big"
+			yes:
+			{
+				"leopard"
+			}
+			no:
+			{
+				"poltorashka askjbg"
+			}
+		}
+		no:
+		{
+			"fish"
+		}
+	}
+	no:
+	{
+		"unknown"
+	}
+}
